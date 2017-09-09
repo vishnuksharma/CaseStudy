@@ -1,0 +1,148 @@
+.container-wrapper{
+	margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    position: relative;
+}
+form{
+	margin: 0;
+}
+header{
+	text-align:center;
+	border-bottom: 2px solid;
+    margin-bottom: 0px;
+}
+h1{
+	margin: 0;
+}
+.navigation{
+	margin-bottom: 40px;
+}
+.navigation ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+.navigation ul li{
+	display: inline-block;
+	display: inline-block;
+    padding: 16px;
+    border-right: 1px solid;
+    background-color: #337ab7;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+.navigation ul li.selected{
+	background-color: #0783ec;
+}
+.fileinput{
+	display: inline-block;
+}
+.uploadlabel{
+	padding-bottom: 10px;
+	font-family: arial;
+	font-weight: bold;
+}
+em{
+	color: red;
+}
+#uploadFile{
+		padding: 10px;
+	    width: 350px;
+	}
+.file-upload {
+    position: relative;
+    overflow: hidden;
+}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none; 
+  border: 1px solid transparent;
+  white-space: nowrap;
+
+  
+}
+.btn-primary {
+ color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 10px 20;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    height: 38px;
+    width: 80px;
+    filter: alpha(opacity=0);
+}
+.file-upload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+input[type="file"] {
+    display: block;
+}
+.uploadbtn{
+	display: inline-block;
+	padding-left: 30px;
+}
+.msgDisplay{
+	font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px 191px 10px 0px;
+    display: inline-block;;
+}
+.success{
+	color: green;
+}
+.error{
+	color: red;
+}
+.loader{
+	position: absolute;
+    right: 48%;
+    top: 40%;
+    display: none;
+}
+.exportFileContainer{
+	display: none;
+}
+.file-dropdown-container, .extension-dropdown-container{
+	display: inline-block;
+    font-size: 18px;
+}
+.extension-dropdown-container{
+	padding-left: 30px;
+}
+.fileOptionList, .fileType{
+	padding: 9px;
+    width: 170px;
+    font-size: 16px;
+}
+.fileOptionList option, .fileType option{
+	font-size: 18px;
+}
+.convertBtn{
+	display: inline-block;
+    padding-left: 25px;
+}
